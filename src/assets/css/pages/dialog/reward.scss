@@ -1,0 +1,117 @@
+#reward {
+  .content {
+    width: 90%;
+    max-height: 742px;
+    margin: 10px auto 0 auto;
+    
+    h3 {
+      font-size: 36px;
+      color: #3b3b3b;
+    }
+
+    .subtitle {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-around;
+      font-size: 24px;
+      line-height: 44px;
+      color: #b6b6b6;
+    }
+
+    .items {
+      margin-top: 6px;
+
+      .item {
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .row0 {
+          display: flex;
+          justify-content: space-around;
+          font-size: 24px;
+          line-height: 24px;
+	        color: #000;
+        }
+
+        .row1 {
+          margin-top: 16px;
+          margin-left: 8px;
+          font-size: 20px;
+          color: #afafaf;
+          text-align: left;
+        }
+
+        &:nth-child(2n+1) {
+          background-color: #fbfbfb;
+        }
+      }
+    }
+
+    .left {
+      margin-left: 8px;
+      display: inline-block;
+      width: 22%;
+      text-align: left;
+    }
+
+    .middle {
+      display: inline-block;
+      width: 41%;
+      text-align: left;
+    }
+
+    .right {
+      display: inline-block;
+      width: 31%;
+      text-align: left;
+
+      a {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        bottom: 50%;
+        margin: auto 0;
+        width: 40px;
+        height: 40px;
+    
+        img {
+          position: absolute;
+          top: 50%;
+          bottom: 50%;
+          right: 20px;
+          margin: auto;
+          width: 22px;
+          height: 12px;
+          transform: rotate(90deg);
+        }
+      }
+    }
+
+    .null {
+      .null-img {
+        display: block;
+        margin-top: 77px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 255px;
+        height: 179px;
+      }
+
+      .null-tip {
+        margin-top: 28px;
+        padding-bottom: 80px;
+        text-align: center;
+        font-size: 24px;
+        color: #858584;
+      }
+    }
+
+    .loading {
+      margin-top: 30px;
+      /deep/ .van-loading__text{
+        font-size: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+#history {
+  .content {
+    width: 100%;
+    max-height: 742px;
+    margin: 10px auto 0 auto;
+
+    table {
+      width: 100%;
+      position: relative;
+      border-collapse: collapse;
+
+      &.large-table {
+        min-width: 1080px;
+      }
+
+      th {
+        // position: sticky;
+        // background-color: red;
+        top: 0;
+      }
+      td {
+      }
+    }
+
+    .list {
+      margin: 0 auto;
+      width: 530px;
+      height: 250px;
+      overflow: scroll;
+
+      .item {
+        font-size: 20px;
+        height: 50px;
+        line-height: 50px;
+        background-color: #1e2234;
+        opacity: 0.87;
+
+        &.header {
+          // background-color: red;
+        }
+
+        &:nth-child(even){
+          background-color: transparent;
+        }
+
+        .address {
+          width: 160px;
+          text-align: left;
+        }
+        
+        .amount {
+          width: 100px;
+          text-align: left;
+        }
+
+        .reward {
+          width: 120px;
+          text-align: left;
+        }
+      }
+      
+    }
+    
+  }
+}

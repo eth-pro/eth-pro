@@ -1,0 +1,240 @@
+#popularize {
+  .content {
+    width: 96%;
+    margin: 0 auto;
+    padding-bottom: 31px;
+    
+    img {
+      margin-bottom: 8px;
+      width: 166px;
+	    height: 166px;
+    }
+
+    .tip {
+      font-size: 20px;
+      color: #979ea5;
+      text-align: center;
+
+      &.red {
+        color: #ff4242;
+      }
+
+      b {
+        color: #555e65;
+      }
+
+      a {
+        color: #979ea5;
+      }
+    }
+
+    .block {
+      margin-top: 10px;
+      .invite {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        .invite-url {
+          flex: 1;
+          margin-left: 14px;
+          width: 112px;
+          height: 46px;
+          font-size: 24px;
+          color: rgba($color: #fff, $alpha: 1);
+          border: solid 1PX #b3b3b3;
+          background-color: transparent;
+          text-indent: 14px;
+        }
+        .copy {
+          display: inline-block;
+          width: 120px;
+          height: 40px;
+          line-height: 40px;
+          font-size: 28px;
+          vertical-align: middle;
+          border-radius: 8px;
+          color: rgba($color: #fff, $alpha: 1);
+          
+        }
+      }
+      
+      .tip {
+        margin-left: 38px;
+        text-align: left;
+      }
+
+      .title {
+        font-size: 28px;
+        text-align: left;
+        margin-left: 18px;
+        color: rgba($color: #fff, $alpha: 1);
+      }
+
+      .list {
+        margin: 20px auto 0 auto;
+        width: 530px;
+        display: table;
+        .item {
+          position: relative;
+          font-size: 20px;
+          height: 49px;
+          line-height: 49px;
+          display: table-row;
+          background-color: #1e2234;
+
+          &.my {
+            color: #34ce5c;
+          }
+
+          &:nth-child(even){
+            background-color: transparent;
+          }
+
+          .address {
+            position: relative;
+            display: table-cell;
+            text-align: left;
+
+            .flag {
+              position: absolute;
+              right: 16px;
+              top: 0;
+              padding: 0 10px;
+              font-size: 12px;
+              line-height: 26px;
+              border-radius: 10px;
+              background-color: #ff344d;
+            }
+          }
+          
+          .amount {
+            display: table-cell;
+            width: 160px;
+            text-align: left;
+          }
+
+          .reward {
+            display: table-cell;
+            width: 120px;
+            text-align: left;
+          }
+        }
+        
+      }
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: space-around;
+      .btn-price {
+        height: 22px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        .label {
+          font-size: 36px;
+          color: #555e65;
+          text-align: center;
+        }
+      }
+    }
+    .counter {
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .minus, .plus {
+        width: 66px;
+        height: 66px;
+        border: solid 1PX #b2b2b2;
+        text-align: center;
+        line-height: 66px;
+        color: #555e65;
+      }
+      .input-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1PX #b2b2b2;
+        height: 91px;
+        min-width: 268px;
+        padding: 0 20px;
+        .label {
+          font-size: 36px;
+          color: #108fea;
+        }
+        .tip {
+          font-size: 20px;
+          color: #979ea5;
+          margin-left: 20px;
+        }
+      }
+    }
+
+    .invite-code {
+      margin-left: 30px;
+      label {
+        font-size: 24px;
+        color: #282828;
+      }
+      input {
+        margin-left: 14px;
+        width: 112px;
+        height: 46px;
+        font-size: 24px;
+        color: #282828;
+        border: solid 1PX #b3b3b3;
+        text-indent: 14px;
+      }
+      .tip {
+        margin-left: 14px;
+        font-size: 20px;
+        color: #ff0000;
+      }
+    }
+
+    .btn {
+      margin: 33px auto 21px auto;
+      width: 533px;
+      height: 76px;
+      background-color: #ff344d;
+      border-radius: 63px;
+      color: #ffffff;
+      text-align: center;
+      font-size: 28px;
+      line-height: 76px;
+
+      &.disable {
+        background-color: #565656;
+      }
+
+      &.opacity {
+        opacity: 0.6;
+      }
+
+      .icon0 {
+        margin-right: 10px;
+        width: 30px;
+        height: 31px;
+        vertical-align: middle;
+      }
+
+      .icon1 {
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+      }
+
+      .icon2 {
+        margin-right: 10px;
+        width: 27px;
+        height: 28px;
+        vertical-align: middle;
+      }
+    }
+  }
+}

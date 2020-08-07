@@ -1,0 +1,27 @@
+.guide-popup {
+    background: transparent;
+    
+    .guide {
+        z-index: 24;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(#000000, .2);
+
+        .text {
+            padding-top: 110px;
+            margin-right: 40px;
+            text-align: right;
+
+            p {
+                font-size: 30px;
+                color: #fffeff;
+                line-height: 56px;
+                
+                img {
+                    width: 116px;
+                    height: 101px;
+                }
+            }
+        }
+    }
+}

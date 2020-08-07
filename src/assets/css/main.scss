@@ -1,0 +1,179 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  background-color: #1E2234;
+  color: #ffffff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+}
+a {
+  text-decoration: none;
+  color: #1b7bff;
+}
+.wapper {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: DINMittelschrift;
+  src: url('../font/DINMittelschrift.otf') format('opentype');
+}
+
+@font-face {
+  font-family: MyriadPro-Regular;
+  src: url('../font/MYRIADPRO-REGULAR.OTF') format('opentype');
+}
+
+@font-face {
+  font-family: SanFranciscoEn;
+  src: url('../font/System_San_Francisco_Display_Medium.ttf') format('opentype');
+}
+
+.view {
+  padding-bottom: 103px;
+}
+.van-toast {
+  width: 240px;
+  font-size: 24px;
+  line-height: 30px;
+  
+  /deep/ .van-loading {
+    width: 60px;
+    height: 60px;
+  }
+  
+  /deep/ .van-toast__text {
+    word-break: normal;
+  }
+}
+
+#app {
+  min-height: 100%;
+  height: 100%;
+  margin-bottom: -50px;
+  margin: 0 auto;
+
+  /deep/ .el-loading-spinner .path {
+    stroke: #412aeb;
+  }  
+}
+
+.slideout-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  z-index: 0;
+  display: none;
+  background: #171e24;
+  color: white;
+}
+
+.slideout-menu-left {
+  left: 0;
+}
+
+.slideout-menu-right {
+  right: 0;
+}
+
+.slideout-panel {
+  position: relative;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}
+
+.van-tabs {
+  .van-hairline--top-bottom {
+    &:after {
+      border-top: 0;
+    }
+  }
+  
+  .van-tab {
+    &.van-tab--active {
+      color: #333333;
+      .van-ellipsis {
+        color: #333333;
+      }
+    }
+  }
+  .van-tabs__line {
+    background-color: #412aeb;
+  }
+}
+
+.van-dialog {
+  font-size: 28px;
+
+  .van-dialog__message {
+    font-size: 24px;
+  }
+
+  .van-button {
+    font-size: 24px;
+
+      &.van-dialog__confirm {
+          .van-button__text {
+              color: #412aeb;
+          }
+      }
+  }
+}
+
+.van-modal {
+  background-color: rgba(0, 0, 0, .75);
+}
+
+
+
+.van-tabbar {
+  height: 103px;
+  background-color: #121520;
+}
+
+.tabbar-icon {
+  width: 46px;
+  height: 46px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.tabber-text {
+  font-size: 18px;
+}
+
+
+.van-overlay {
+  background-color: rgba($color: #000, $alpha: 0.65)
+}
+
+.van-hairline--top-bottom::after {
+  border: none;
+}
+
+
+.van-icon.van-icon-cross.van-popup__close-icon.van-popup__close-icon--top-right {
+  font-size: 38px;
+}

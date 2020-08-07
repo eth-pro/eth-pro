@@ -1,0 +1,100 @@
+.card {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: #121520;
+    width: 592px;
+    .card-title {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        height: 90px;
+        text-align: left;
+        white-space: nowrap;
+        
+        .title-main {
+            display: inline-block;
+            font-size: 24px;
+            line-height: 90px;
+            color: #ffffff;
+            opacity: 0.87;
+            font-weight: bold;
+            vertical-align: middle;
+            .icon {
+                display: inline-block;
+                vertical-align: text-top;
+                margin-right: 4px;
+
+                &.icon-1 {
+                    width: 25px;
+                    height: 25px;
+                    background: url(../../img/home/icon-1.png) no-repeat center;
+                    background-size: contain;
+                }
+                &.icon-2 {
+                    width: 25px;
+                    height: 25px;
+                    background: url(../../img/home/icon-2.png) no-repeat center;
+                    background-size: contain;
+                }
+                &.icon-3 {
+                    width: 25px;
+                    height: 25px;
+                    background: url(../../img/home/icon-3.png) no-repeat center;
+                    background-size: contain;
+                }
+                &.icon-4 {
+                    width: 24px;
+                    height: 26px;
+                    background: url(../../img/home/icon-4.png) no-repeat center;
+                    background-size: contain;
+                }
+                &.icon-5 {
+                    width: 22px;
+                    height: 25px;
+                    background: url(../../img/home/icon-5.png) no-repeat center;
+                    background-size: contain;
+                }
+                &.icon-6 {
+                    width: 22px;
+                    height: 27px;
+                    background: url(../../img/home/icon-6.png) no-repeat center;
+                    background-size: contain;
+                }
+            }
+        }
+        .spilt {
+            display: inline-block;
+            width: 1Px;
+            height: 20px;
+            margin: 0 12px;
+            background-color: #b3bbc3;
+            vertical-align: middle;
+        }
+        .title-sub {
+            display: inline-block;
+            font-size: 20px;
+            line-height: 90px;
+            color: #979ea5;
+            vertical-align: middle;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 360px;
+        }
+        .tips {
+            position: absolute;
+            right: 0;
+            color: #979ea5;
+            font-size: 20px;
+            line-height: 90px;
+        }
+    }
+    .card-content {
+        .content {
+            width: 100%;
+        }
+    }
+}
+    

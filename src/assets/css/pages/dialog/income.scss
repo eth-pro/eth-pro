@@ -1,0 +1,52 @@
+#income {
+  .content {
+    width: 90%;
+    margin: 10px auto 0 auto;
+    h3 {
+      font-size: 36px;
+      color: #3b3b3b;
+    }
+    .tips-group {
+      margin-top: 30px;
+      text-align: center;
+      .tip {
+        font-size: 22px;
+        line-height: 44px;
+        color: #3b3b3b;
+        span {
+          color: #ff0000;
+        }
+      }
+    }
+
+    .btn-group {
+      margin-top: 58px;
+      display: flex;
+      justify-content: space-around;
+      .btn {
+        width: 382px;
+        height: 63px;
+        line-height: 63px;
+        font-size: 28px;
+        color: #28a5ff;
+        border-radius: 30px;
+        border: solid 1px #28a5ff;
+
+        &.confirm {
+          color: #fff;
+          background-color: #28a5ff;
+          box-shadow: 4px 6px 13px 0px 
+          rgba(40, 165, 255, 0.35);
+        }
+      }
+    }
+
+    .notice {
+      margin-top: 24px;
+      text-align: center;
+      font-size: 20px;
+      color: #979ea5;
+    }
+
+  }
+}

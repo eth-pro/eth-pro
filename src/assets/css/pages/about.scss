@@ -1,0 +1,100 @@
+#about {
+    padding-top: 112px;
+    padding-bottom: 72px;
+    text-align: left; 
+    width: 100%;
+    .banner {
+        width: 100%;
+        height: 253px;
+        text-align: center;
+        img {
+            width: 586px;
+            height: 253px;
+            border-radius: 10px;
+        }
+    }
+    .block {
+        margin-top: 50px;
+
+        h2 {
+            margin: 10px auto 0 auto;
+            width: 582px;
+            font-size: 24px;
+            line-height: 38px;
+            color: #ffffff;
+        }
+
+        
+    
+        .gap {
+            margin-top: 32px;
+            text-align: center;
+
+            
+
+            p {
+                i {
+                    margin-right: 6px;
+                    display: inline-block;
+                    width: 23px;
+                    height: 23px;
+                    vertical-align: middle;
+                    
+                    &.color0 {
+                        background-color: #286bf6;
+                    }
+
+                    &.color1 {
+                        background-color: #39bc52;
+                    }
+
+                    &.color2 {
+                        background-color: #f3a93a;
+                    }
+
+                    &.color3 {
+                        background-color: #e7751e;
+                    }
+
+                    &.color4 {
+                        background-color: #d63332;
+                    }
+
+                    &.color5 {
+                        background-color: #373994;
+                    }
+                }
+
+                span {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+                margin: 18px auto 0 auto;
+                width: 582px;
+                font-size: 20px;
+                // text-indent: 50px;
+                line-height: 38px;
+                color: #ffffff;
+                text-align: justify;
+                opacity: 0.6;
+            }
+        }
+    }
+
+    .bottom {
+        margin-top: 50px;
+        width: 100%;
+        font-size: 12px;
+        color: #fff;
+        opacity: 0.3;
+        text-align: center;
+    }
+
+    .pie {
+        display: block;
+        margin: 30px auto 0 auto;
+        width: 564px;
+        height: 374px;
+    }
+}

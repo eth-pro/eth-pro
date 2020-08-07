@@ -1,0 +1,23 @@
+#help-bottom {
+    .help-bottom-div {
+        background-color: #dcdcdc;
+        
+        .help-bottom-content {
+            padding-top: 46px;
+            text-align: center;
+            padding-bottom: 65px;
+            line-height: 0;
+
+            span {
+                font-size: 28px;
+                color: #606060;
+            }
+    
+            a {
+                margin-left: 12px;
+                font-size: 28px;
+                color: #0303ff;
+            }
+        }
+    }
+}

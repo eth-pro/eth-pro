@@ -1,0 +1,130 @@
+#epro {
+  position: relative;
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  background-size: 100% auto;
+  padding-top: 142px;
+  overflow: hidden;
+
+  .dashboard {
+    height: 474px;
+    width: 100%;
+
+    .graph {
+      margin: 0 auto;
+      width: 584px;
+      height: 328px;
+
+      img {
+        height: 100%;
+        width: 100%;
+      } 
+    }
+  }
+
+  .box {
+    width: 594px;
+    margin: 42px auto 0 auto;
+    box-sizing: border-box;
+    padding: 43px 53px 36px 28px;
+    border-radius: 10px;
+    background-color: #121520;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+    .row {
+      color: rgba($color: #fff, $alpha: 1);
+      line-height: 34px;
+      display: flex;
+      margin-top: 24px;
+      .value {
+        margin-left: 4px;
+      }
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    &.yellow {
+      border-left: 16px solid #ff9633;
+    }
+
+    &.blue {
+      border-left: 16px solid #1b7bff;
+
+      .btn {
+        border: solid 2px #1b7bff;
+  
+        &.btn-primary {
+          background-color: #1b7bff;
+        }
+      }
+    }
+
+    &.red {
+      border-left: 16px solid #ff344d;
+
+      .btn {
+        border: solid 2px #ff344d;
+  
+        &.btn-primary {
+          background-color: #ff344d;
+        }
+      }
+    }
+
+    &.green {
+      padding: 43px 18px 36px 18px;
+      border-left: 16px solid #34ce5c;
+      display: block;
+
+      .history {
+        margin-top: 30px;
+      }
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .btn {
+      display: inline-block;
+      width: 124px;
+      height: 50px;
+      border-radius: 80px;
+      text-align: center;
+      line-height: 50px;
+      font-size: 20px;
+      border: solid 2px #1b7bff;
+
+      &.btn-primary {
+        width: 267px;
+        height: 66px;
+        line-height: 66px;
+        color: #fff;
+        margin-top: 30px;
+        background-color: #1b7bff;
+      }
+    }
+  }
+
+  .epro-label {
+    font-size: 20px;
+    line-height: 50px;
+  }
+  .epro-summary {
+    margin-top: 34px;
+    font-size: 48px;
+
+    .symbol {
+      font-size: 24px;
+      margin-left: 20px;
+
+    }
+  }
+}

@@ -1,0 +1,27 @@
+#bottom {
+    text-align: center;
+    font-size: 18px;
+    color: #fefefe;
+    padding-bottom: 30px;
+    .copyright {
+        text-align: center;
+        font-size: 24px;
+        line-height: 44px;
+        span {
+            margin-left: 10px;
+        }
+        
+        a {
+            color: #fefefe;
+        }
+    }
+
+    .contact {
+        text-align: center;
+        font-size: 24px;
+        line-height: 44px;
+        a {
+            color: #fefefe;
+        }
+    }
+}
