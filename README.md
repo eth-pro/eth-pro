@@ -1,4 +1,4 @@
-# etherminer
+# eth-pro
 
 ## Project setup
 ```
